@@ -1,0 +1,26 @@
+{
+   "influx":{
+      "influx_address":"176.16.1.123",
+      "influx_user":"admin",
+      "influx_password":"admin123",
+      "influx_database":"Energy_Panel1",
+      "storage":1
+   },
+   "couchdb":{
+      "couchdb_address":"localhost",
+      "couchdb_user":"admin",
+      "couchdb_password":"pass",
+      "couchdb_database":"Energy_Panel",
+      "couchdb_port":5984,
+      "storage":1
+   },
+   "mqtt":{
+      "mqtt_address":"emq.iotech.gr",
+      "mqtt_port":1883,
+      "mqtt_user":"george",
+      "mqtt_pass":"@george12345",
+      "mqtt_topic":"/power111",
+      "mqtt_client_id":"MQTT_Influx_BRIDG24324232E1",
+      "storage":0
+   }
+}
